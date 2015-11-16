@@ -1,0 +1,230 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{template/friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+
+\begin{document}
+
+\header{Antoine}{Marandon}{Full stack mobile developer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{Contact}
+~
+\textbf{Address}
+24 av de la Paix
+CHATILLON, 92320
+FRANCE
+~
+\textbf{Phone}
+\href{tel:0033695395169}{+33 (0) 695 395 138}
+~
+\textbf{Email/XMPP}
+\href{mailto:antoine@marandon.fr}{antoine@marandon.fr}
+\section {Links}
+\href{https://github.com/ntnmrndn}{Github: ntnmrndn}
+\href{http://stackoverflow.com/users/1485230/}{StackOverflow: 1485230}
+~
+\section{Nationality}
+French
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2008-2013}
+{Master's dregree {\normalfont of Computer Sciences}}
+{EPITECH, Paris}
+{\emph{5 years courses}}
+
+%------------------------------------------------
+
+\entry
+{2011--2012}
+{Exchange Student {\normalfont at Chung-Ang University}}
+{Seoul, South Korea}
+{\emph{Computer Sciences courses}}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{eduPad}
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2012--Now}
+{Full Stack Mobile Developer, iOS Lead}
+{Paris, Tokyo, Seoul}
+{\emph{Internship followed by full time employment in a company developing mobile educational softwares}\\
+%-------------------- iOS ------------------------
+\textbf{iOS development} \workload{60}
+\begin{itemize}
+\item \textbf{iOS SDKs:} 5,6,7,8,9
+\item \textbf{Languages:} Swift 2.1, Objective-C
+\item \textbf{UI:} Storyboards, Autolayouts
+\item \textbf{Libraries}
+\begin{itemize}
+\item \textbf{REST:} AFNetworking, Alamofire
+\item \textbf{AWS:} SNS, S3, Cognito
+\item \textbf{Google:} Anaytics, Admob
+\item \textbf{Database:} Magical Record, Mogenerator
+\end{itemize}
+\item \textbf{CI:} XCTest, Jenkins, Buils via Web APIs...
+\item ...
+\end{itemize}
+%-------------------- ROR -----------------------
+\textbf{Backend Server - Ruby On Rails} \workload{15}
+\begin{itemize}
+\item REST API
+\item MySQL (Active Record)
+\item Capistrano
+\item Delayed Jobs ...
+\end{itemize}
+
+
+%------------------ Admin sys -----------------------
+\textbf{System Adinistration} \workload{10}
+\begin{itemize}
+\item Vmware ESXi
+\item Linux
+\item \textbf{Services:} Nagios, Nginx, Phusion-passenger, SSH, Backups, Cron-jobs
+\end{itemize}
+
+%------------------ Android -----------------------
+\textbf{Android} \workload{15}
+\begin{itemize}
+\item Port iOS application to Android
+\item Automatization and unit testing (Java, Robotium)
+\item AWS SDK, Android store publication
+\end{itemize}
+}
+
+\end{entrylist}
+
+%------------------- LHG ------------------------
+
+
+\subsection{Louvre hotel group}
+\begin{entrylist}
+\entry
+{2011}
+{Q\&A engineer}
+{Paris, France}
+{\emph{Assisted project manager by creating tools to ensure data integrity after a Finance software migration}
+
+\begin{itemize}
+\item {Microsoft SQL, Oracle SQL}
+\item {VBA, Excel, Access}
+
+\end{itemize}
+}
+\end{entrylist}
+
+%------------------ Prestashop -------------------------
+\goodbreak
+\subsection{Prestashop}
+\begin{entrylist}
+\entry
+{2008}
+{PHP Developer}
+{Paris, France}
+{\emph{5 Month internship. Worked on core of modules of Prestashop (e-commerce solution), for internal and external clients}
+
+\begin{itemize}
+
+\item {PHP, MySQL}
+\item {MVC}
+
+\end{itemize}
+}
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	Skills SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\begin{itemize}
+\item \textbf{Programming Languages:} Swift, Objective C, C, C++, Ruby, Java, SH, PHP, SQL...
+\item \textbf{SDKs:} iOS, Android, RoR, QT
+\item \textbf{Operating systems:} BSD/Linux, OS X, Windows
+\item \textbf{Sys-Admin:} Deploying secure web servers from scratch, Virtualization...
+\item \textbf{Network:} UNIX Sockets, TCP, IP...
+\item \textbf{Human Languages:} French (Mother Tongue), English (Fluent), Japanese (Beginner)
+\item \textbf{Other:} \LaTeX, Excel, JIRA-server administration...
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	Presonal
+%----------------------------------------------------------------------------------------
+
+\section{Presonal Projects}
+\begin{entrylist}
+  \entry
+      {2011 - 2013}
+      {tNETacle (decentralized VPN)}
+      {}
+      {C/C++ solution developed with a 8 students team \\
+      \emph{Asymmetric cryptography, UPNP, IPC, UDP, TCP, TLS, DTLS, portability, compression}}
+%------------------------------------------------
+
+\entry
+{}
+{Open Source contributions}
+{}
+{Cocoapods-Specs, R.swift, Atlas-iOS, LECropPictureViewController...}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Hobbies}
+
+{Brewing, Cycling, and travelling the world}
+
+\end{document}
