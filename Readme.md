@@ -2,4 +2,4 @@
 
 To generate the pdf, use `make`
 
-friggeri-cv.cls has been slighlt edited.
+friggeri-cv.cls has been slightly edited.

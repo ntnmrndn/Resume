@@ -7,6 +7,12 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
+%%% DATES
+
+\usepackage{datenumber,fp}
+
+
+
 %%%%%%%%%%
 % Colors %
 %%%%%%%%%%
