@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.2.1)  1 FEB 2022 18:54
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.2.1)  3 FEB 2022 11:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -965,7 +965,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip74
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 335.
+Package hyperref Info: Option `colorlinks' set `false' on input line 336.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
@@ -1226,7 +1226,7 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 Here is how much of TeX's memory you used:
  33545 strings out of 476919
  650727 string characters out of 5821841
- 1535200 words of memory out of 5000000
+ 1536209 words of memory out of 5000000
  52994 multiletter control sequences out of 15000+600000
  404954 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
