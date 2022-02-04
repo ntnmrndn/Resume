@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.2.1)  3 FEB 2022 11:27
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.2.1)  4 FEB 2022 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1177,11 +1177,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--129
 
  []
 
+Missing character: There is no セ (U+30BB) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no ブ (U+30D6) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no ン (U+30F3) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no デ (U+30C7) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no イ (U+30A4) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no ズ (U+30BA) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no 株 (U+682A) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no 式 (U+5F0F) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no 会 (U+4F1A) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no 社 (U+793E) in font Helvetica Neue Condensed Bold
+/AAT!
 
 Underfull \hbox (badness 10000) in paragraph at lines 132--158
 
  []
 
+Missing character: There is no モ (U+30E2) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no ー (U+30FC) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no シ (U+30B7) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no ョ (U+30E7) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no ン (U+30F3) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no ポ (U+30DD) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no ー (U+30FC) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no ト (U+30C8) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no レ (U+30EC) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no ー (U+30FC) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no ト (U+30C8) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no 株 (U+682A) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no 式 (U+5F0F) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no 会 (U+4F1A) in font Helvetica Neue Condensed Bold
+/AAT!
+Missing character: There is no 社 (U+793E) in font Helvetica Neue Condensed Bold
+/AAT!
 
 Underfull \hbox (badness 10000) in paragraph at lines 160--196
 
